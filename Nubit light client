@@ -1,0 +1,9 @@
+Sudo apt update && sudo apt upgrade -y
+Sudo apt install curl git wget build-essential jq screen -y
+Screen -S nubit
+Curl -sL1 https://nubit.sh | bash
+./start.sh
+Screen -r nubit
+Generate your pneumonic phrase here.
+Cat $HOME/nubit-node/mnemonic.tx
+Get faucet on https://faucet.nubit.org
